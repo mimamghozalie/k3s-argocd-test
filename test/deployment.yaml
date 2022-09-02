@@ -72,7 +72,7 @@ metadata:
 spec:
   secretName: app-test-1-tls-secret
   issuerRef:
-    name: ssl-issuer
+    name: letsencrypt-prod
     kind: ClusterIssuer
   dnsNames:
     - app-example.argocd.xfust.com
